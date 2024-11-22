@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Tecnologias - Acessibilidade na Vida Cotidiana</title>
+</head>
+<body>
+    <header>
+        <div class="accessibility-bar">
+            <button id="increase-font" aria-label="Aumentar fonte">A+</button>
+            <button id="decrease-font" aria-label="Diminuir fonte">A-</button>
+            <button id="toggle-contrast" aria-label="Ativar/desativar alto contraste">
+                <img src="images/contraste-icone.png" alt="Ícone de alto contraste">
+            </button>
+            <nav aria-label="Atalhos de acessibilidade">
+                <a href="#main-content" accesskey="1">Ir para o conteúdo [1]</a>
+                <a href="#footer" accesskey="2">Ir para o rodapé [2]</a>
+            </nav>
+        </div>
+        <img src="images/logo.png" alt="Logotipo do site Acessibilidade na Vida Cotidiana">
+        <h1>Acessibilidade na Vida Cotidiana</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="barreiras.html">Barreiras</a></li>
+                <li><a href="tecnologias.html" class="active">Tecnologias</a></li>
+                <li><a href="legislacao.html">Legislação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section>
+            <h2>Tecnologias Assistivas</h2>
+            <p>Conheça as tecnologias que ajudam pessoas com deficiência a ter mais autonomia:</p>
+            <ul>
+                <li><strong>Leitores de Tela:</strong> Como NVDA e JAWS, que transformam texto em áudio.</li>
+                <li><strong>Teclados Adaptados:</strong> Para pessoas com mobilidade reduzida.</li>
+                <li><strong>Dispositivos de Audiodescrição:</strong> Para vídeos e conteúdos visuais.</li>
+            </ul>
+            <img src="images/tecnologia.jpg" alt="Pessoa utilizando um leitor de tela em um computador">
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2024 Acessibilidade na Vida Cotidiana. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

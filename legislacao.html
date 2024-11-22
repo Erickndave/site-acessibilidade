@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Legislação - Acessibilidade na Vida Cotidiana</title>
+</head>
+<body>
+    <header>
+        <div class="accessibility-bar">
+            <button id="increase-font" aria-label="Aumentar fonte">A+</button>
+            <button id="decrease-font" aria-label="Diminuir fonte">A-</button>
+            <button id="toggle-contrast" aria-label="Ativar/desativar alto contraste">
+                <img src="images/contraste-icone.png" alt="Ícone de alto contraste">
+            </button>
+            <nav aria-label="Atalhos de acessibilidade">
+                <a href="#main-content" accesskey="1">Ir para o conteúdo [1]</a>
+                <a href="#footer" accesskey="2">Ir para o rodapé [2]</a>
+            </nav>
+        </div>
+        <img src="images/logo.png" alt="Logotipo do site Acessibilidade na Vida Cotidiana">
+        <h1>Acessibilidade na Vida Cotidiana</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="barreiras.html">Barreiras</a></li>
+                <li><a href="tecnologias.html">Tecnologias</a></li>
+                <li><a href="legislacao.html" class="active">Legislação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section>
+            <h2>Legislação sobre Acessibilidade</h2>
+            <p>A legislação brasileira protege os direitos das pessoas com deficiência:</p>
+            <ul>
+                <li><strong>Lei Brasileira de Inclusão (LBI):</strong> Lei nº 13.146/2015.</li>
+                <li><strong>Decreto nº 5.296/2004:</strong> Regras de acessibilidade digital.</li>
+                <li><strong>Convenção da ONU sobre os Direitos das Pessoas com Deficiência:</strong> Ratificada em 2009.</li>
+            </ul>
+            <img src="images/legislacao.jpg" alt="Documento oficial sobre legislação de acessibilidade">
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2024 Acessibilidade na Vida Cotidiana. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

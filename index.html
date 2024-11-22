@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site acessível sobre Acessibilidade na Vida Cotidiana.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Acessibilidade na Vida Cotidiana</title>
+</head>
+<body>
+    <header>
+        <div class="accessibility-bar">
+            <button id="increase-font" aria-label="Aumentar fonte">A+</button>
+            <button id="decrease-font" aria-label="Diminuir fonte">A-</button>
+            <button id="toggle-contrast" aria-label="Ativar/desativar alto contraste">
+                <img src="images/contraste-icone.png" width=" 40px" alt="Ícone de alto contraste">
+            </button>
+            <nav aria-label="Atalhos de acessibilidade">
+                <a href="#main-content" accesskey="1">Ir para o conteúdo [1]</a>
+                <a href="#footer" accesskey="2">Ir para o rodapé [2]</a>
+            </nav>
+        </div>
+        <img src="images/logo.png" width="80px" alt="Logotipo do site Acessibilidade na Vida Cotidiana">
+        <h1>Acessibilidade na Vida Cotidiana</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="barreiras.html">Barreiras</a></li>
+                <li><a href="tecnologias.html">Tecnologias</a></li>
+                <li><a href="legislacao.html">Legislação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section>
+            <h2>Bem-vindo!</h2>
+            <p>Este site é dedicado a explorar a acessibilidade na vida cotidiana, mostrando desafios e soluções para todos.</p>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2024 Acessibilidade na Vida Cotidiana. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
